@@ -1,4 +1,4 @@
-Create new folder and Download src and package.json
+Create new folder as your working directory. Download src and package.json
 
 if you have npm already installed. use npm install within folder where you have package.json, this will install required react dependencies and packages.
 
