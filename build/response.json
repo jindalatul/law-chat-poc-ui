@@ -1,0 +1,80 @@
+{
+  "query_used": {
+    "jurisdiction": "California",
+    "case_type": "contract dispute"
+  },
+  "statutes": [
+    {
+      "doc_id": "statute_ca_ccp_337",
+      "title": "California Code of Civil Procedure § 337",
+      "citation": "Cal. Code Civ. Proc. § 337",
+      "jurisdiction": "California",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=337"
+    },
+    {
+      "doc_id": "statute_ca_ccp_339",
+      "title": "California Code of Civil Procedure § 339",
+      "citation": "Cal. Code Civ. Proc. § 339",
+      "jurisdiction": "California",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=339"
+    }
+  ],
+  "similar_cases": [
+    {
+      "doc_id": "case_cataphora_2020",
+      "title": "Cataphora Inc. v. Parker (Cal. App. 2020)",
+      "jurisdiction": "California",
+      "case_type": "contract dispute",
+      "url": "https://www.courtlistener.com/opinion/8713801/cataphora-inc-v-parker/pdf"
+    },
+    {
+      "doc_id": "case_racine_laramie_1992",
+      "title": "Racine & Laramie, Ltd. v. Dept. of Parks & Recreation (Cal. App.)",
+      "jurisdiction": "California",
+      "case_type": "contract dispute",
+      "url": "https://www.courtlistener.com/opinion/2283927/racine-laramie-ltd-v-department-of-parks-recreation/pdf"
+    }
+  ],
+  "arguments": [
+    {
+      "point": "Breach elements and timeliness: claim is supportable under California Code of Civil Procedure § 337; filing appears timely if within the stated period.",
+      "support": [
+        {
+          "type": "statute",
+          "ref": "statute_ca_ccp_337",
+          "citation": "Cal. Code Civ. Proc. § 337",
+          "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=337"
+        },
+        {
+          "type": "case",
+          "ref": "case_cataphora_2020",
+          "title": "Cataphora Inc. v. Parker (Cal. App. 2020)",
+          "url": "https://www.courtlistener.com/opinion/8713801/cataphora-inc-v-parker/pdf"
+        }
+      ]
+    },
+    {
+      "point": "Damages/remedies: recovery should align with California Code of Civil Procedure § 339; facts in similar disputes (e.g., Racine & Laramie, Ltd. v. Dept. of Parks & Recreation (Cal. App.)) support contract-based relief.",
+      "support": [
+        {
+          "type": "statute",
+          "ref": "statute_ca_ccp_339",
+          "citation": "Cal. Code Civ. Proc. § 339",
+          "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=339"
+        },
+        {
+          "type": "case",
+          "ref": "case_racine_laramie_1992",
+          "title": "Racine & Laramie, Ltd. v. Dept. of Parks & Recreation (Cal. App.)",
+          "url": "https://www.courtlistener.com/opinion/2283927/racine-laramie-ltd-v-department-of-parks-recreation/pdf"
+        }
+      ]
+    }
+  ],
+  "next_steps": [
+    "Assemble the written contract, amendments, and communications (emails, invoices, delivery proofs).",
+    "Send a written demand with cure deadline; preserve evidence for potential litigation or arbitration.",
+    "Check any arbitration/venue clause and verify limitation periods before filing.",
+    "If unresolved, file in the proper court (or initiate arbitration) and prepare initial disclosures."
+  ]
+}
