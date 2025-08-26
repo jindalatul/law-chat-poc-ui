@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { API_URL } from "./config"; // 👈 import config
 
 export default function ChatBox({ layoutKey }) {
   const [message, setMessage] = useState("");
@@ -133,18 +134,12 @@ function formatReply(data)
     
     setThread((t) => [...t, { role: "user", text }]);
     setLoading(true);
-      // 2) call API
       try {
-         const res = await fetch("response.json"); // change this path to your API
-        /*
-        const res = await fetch("response.json",{
-          method: "GET",
-          body: formData, 
-        }); 
-        */
-
-        const json = await res.json();
-
+         const res = await fetch(API_URL); // change this path to your API
+       
+         const json = await res.json();
+         console.log(json);
+         
         // 3) push assistant message
         setThread((t) => [...t, { role: "assistant", text: formatReply(json) }]);
       } catch (err) {
