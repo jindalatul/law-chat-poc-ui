@@ -1,0 +1,168 @@
+[
+  {
+    "doc_id": "statute_ca_ccp_337",
+    "title": "California Code of Civil Procedure § 337",
+    "jurisdiction": "California",
+    "case_type": "contract dispute",
+    "citation": "Cal. Code Civ. Proc. § 337",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=337",
+    "text": "Within four years: An action upon any contract, obligation or liability founded upon an instrument in writing.",
+    "applicable_cases": ["case_cataphora_2020","case_racine_laramie_1992","case_wallis_superior_ct","case_celebrity_humans_2024","case_maxitransfers_carniceria_2024","case_mane_equestrian_2024","case_adams_amazon_2023","case_palma_softwareag_2023","case_chapman_bmw_2024","case_hinojosa_equisolar_2023"]
+  },
+  {
+    "doc_id": "statute_ca_ccp_339",
+    "title": "California Code of Civil Procedure § 339",
+    "jurisdiction": "California",
+    "case_type": "contract dispute",
+    "citation": "Cal. Code Civ. Proc. § 339",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CCP&sectionNum=339",
+    "text": "Within two years: An action upon a contract, obligation or liability not founded upon an instrument of writing.",
+    "applicable_cases": ["case_racine_laramie_1992","case_wallis_superior_ct","case_adams_amazon_2023","case_maxitransfers_carniceria_2024"]
+  },
+  {
+    "doc_id": "statute_ca_commercial_code_div2",
+    "title": "California Commercial Code – Division 2 (UCC Article 2)",
+    "jurisdiction": "California",
+    "case_type": "sales contracts",
+    "citation": "Cal. Com. Code Div. 2",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes.xhtml",
+    "text": "Division 2 governs contracts for the sale of goods, including formation, performance, and remedies.",
+    "applicable_cases": ["case_maxitransfers_carniceria_2024","case_adams_amazon_2023","case_chapman_bmw_2024","case_ahmadzai_bmw_2023","case_modern_eminence_2023"]
+  },
+  {
+    "doc_id": "statute_ucc_2_201",
+    "title": "Uniform Commercial Code § 2-201 (Statute of Frauds)",
+    "jurisdiction": "Uniform Law",
+    "case_type": "sales contracts",
+    "citation": "U.C.C. § 2-201",
+    "url": "https://www.law.cornell.edu/ucc/2/2-201",
+    "text": "A contract for the sale of goods for $500 or more is not enforceable unless there is a sufficient signed writing.",
+    "applicable_cases": ["case_maxitransfers_carniceria_2024","case_adams_amazon_2023","case_chapman_bmw_2024","case_ahmadzai_bmw_2023","case_modern_eminence_2023"]
+  },
+  {
+    "doc_id": "statute_ucc_2_715",
+    "title": "Uniform Commercial Code § 2-715 (Buyer’s Incidental and Consequential Damages)",
+    "jurisdiction": "Uniform Law",
+    "case_type": "contract damages",
+    "citation": "U.C.C. § 2-715",
+    "url": "https://www.law.cornell.edu/ucc/2/2-715",
+    "text": "Defines incidental and consequential damages recoverable by a buyer for a seller’s breach.",
+    "applicable_cases": ["case_adams_amazon_2023","case_chapman_bmw_2024","case_ahmadzai_bmw_2023","case_maxitransfers_carniceria_2024"]
+  },
+  {
+    "doc_id": "statute_faa_9usc_1_16",
+    "title": "Federal Arbitration Act",
+    "jurisdiction": "Federal",
+    "case_type": "arbitration agreements",
+    "citation": "9 U.S.C. §§ 1–16",
+    "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title9&edition=prelim",
+    "text": "Provides for the validity, irrevocability, and enforcement of written arbitration agreements.",
+    "applicable_cases": ["case_chapman_bmw_2024","case_palma_softwareag_2023","case_adams_amazon_2023","case_turner_iem_2025"]
+  },
+  {
+    "doc_id": "statute_13cfr_part120",
+    "title": "SBA Business Loans",
+    "jurisdiction": "Federal",
+    "case_type": "loan contracts",
+    "citation": "13 C.F.R. Part 120",
+    "url": "https://www.ecfr.gov/current/title-13/chapter-I/part-120",
+    "text": "Regulations governing SBA loan programs, borrower obligations, lender oversight, and enforcement.",
+    "applicable_cases": ["case_chin_sba_2023","case_brandon_williams_sba_2024","case_imaginarium_2023","case_spiritbank_keatrin_2024","case_southwest_lat33_2024"]
+  },
+  {
+    "doc_id": "statute_contract_disputes_act",
+    "title": "Contract Disputes Act of 1978",
+    "jurisdiction": "Federal",
+    "case_type": "government contract dispute",
+    "citation": "41 U.S.C. §§ 7101–7109",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2022-title41/pdf/USCODE-2022-title41-subtitleIII-chap71.pdf",
+    "text": "Establishes the framework and procedures for resolving claims relating to federal government contracts.",
+    "applicable_cases": ["case_22ndcentury_us_2023","case_rr_conner_aviation_2024","case_imaginarium_2023"]
+  },
+  {
+    "doc_id": "statute_esign_15usc_7001",
+    "title": "E-SIGN Act",
+    "jurisdiction": "Federal",
+    "case_type": "electronic contracts",
+    "citation": "15 U.S.C. §§ 7001–7031",
+    "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter96&edition=prelim",
+    "text": "Ensures the validity and legal effect of electronic signatures and electronic records in interstate commerce.",
+    "applicable_cases": ["case_palma_softwareag_2023","case_adams_amazon_2023","case_chapman_bmw_2024","case_hinojosa_equisolar_2023"]
+  },
+  {
+    "doc_id": "statute_ca_ccp_116",
+    "title": "California Small Claims Act (Jurisdiction & Procedure)",
+    "jurisdiction": "California",
+    "case_type": "small claims",
+    "citation": "Cal. Code Civ. Proc. §§ 116.110–116.950",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes.xhtml",
+    "text": "Governs California small claims actions, including jurisdictional limits, filing, and procedure.",
+    "applicable_cases": ["case_cataphora_2020","case_maxitransfers_carniceria_2024","case_adams_amazon_2023"]
+  },
+  {
+    "doc_id": "statute_del_llc_act",
+    "title": "Delaware Limited Liability Company Act",
+    "jurisdiction": "Delaware",
+    "case_type": "LLC internal disputes",
+    "citation": "6 Del. C. ch. 18",
+    "url": "https://delcode.delaware.gov/title6/c018/",
+    "text": "Governs formation, operating agreements, fiduciary duties, and dispute resolution for Delaware LLCs.",
+    "applicable_cases": ["case_trilogy_civitasdx_2025","case_hammer_nra_2025"]
+  },
+  {
+    "doc_id": "statute_tx_prop_code_commercial",
+    "title": "Texas Property Code – Commercial Landlord-Tenant (general)",
+    "jurisdiction": "Texas",
+    "case_type": "commercial lease disputes",
+    "citation": "Tex. Prop. Code (commercial lease provisions)",
+    "url": "https://statutes.capitol.texas.gov/Docs/PR/htm/PR.91.htm",
+    "text": "Texas statutes governing landlord-tenant relations, including remedies and procedures relevant to commercial leases.",
+    "applicable_cases": ["case_trumpburger_2025","case_woodhall_2025"]
+  },
+  {
+    "doc_id": "statute_ca_civ_code_3300",
+    "title": "California Civil Code § 3300 (Damages for Breach of Contract)",
+    "jurisdiction": "California",
+    "case_type": "contract remedies",
+    "citation": "Cal. Civ. Code § 3300",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes.xhtml",
+    "text": "For the breach of an obligation arising from contract, the measure of damages ... is the amount which will compensate the party aggrieved for all the detriment proximately caused thereby.",
+    "applicable_cases": ["case_cataphora_2020","case_racine_laramie_1992","case_wallis_superior_ct","case_maxitransfers_carniceria_2024","case_adams_amazon_2023","case_mane_equestrian_2024","case_celebrity_humans_2024"]
+  },
+  {
+    "doc_id": "statute_fed_ftc_act",
+    "title": "Federal Trade Commission Act (unfair or deceptive acts)",
+    "jurisdiction": "Federal",
+    "case_type": "business practices",
+    "citation": "15 U.S.C. §§ 41–58",
+    "url": "https://uscode.house.gov/view.xhtml?path=/prelim@title15/chapter2&edition=prelim",
+    "text": "Prohibits unfair or deceptive acts or practices in commerce; occasionally implicated alongside contract claims.",
+    "applicable_cases": ["case_adams_amazon_2023","case_celebrity_humans_2024"]
+  },
+  {
+  "doc_id": "statute_ca_civ_code_1950_5",
+  "title": "California Civil Code § 1950.5 (Residential security deposits)",
+  "jurisdiction": "California",
+  "case_type": "landlord-tenant",
+  "citation": "Cal. Civ. Code § 1950.5",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.5.&lawCode=CIV",
+  "text": "Residential security deposits: 21-day return deadline; itemized statement; limited permissible deductions (rent, cleaning to original level, repair beyond normal wear). Bad-faith retention may trigger statutory damages up to twice the deposit."
+},
+{
+  "doc_id": "statute_ca_civ_code_1950_7",
+  "title": "California Civil Code § 1950.7 (Commercial security deposits)",
+  "jurisdiction": "California",
+  "case_type": "landlord-tenant",
+  "citation": "Cal. Civ. Code § 1950.7",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1950.7.&lawCode=CIV",
+  "text": "Commercial security deposits: accounting and return obligations for commercial tenancies; governs lawful deductions and timing."
+},
+{
+  "doc_id": "statute_ca_ccp_116_220",
+  "title": "California Small Claims Jurisdiction",
+  "jurisdiction": "California",
+  "case_type": "procedure",
+  "citation": "Cal. Code Civ. Proc. § 116.220",
+  "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=116.220.&lawCode=CCP",
+  "text": "Small-claims jurisdictional limits and eligibility for filing."
+}]
