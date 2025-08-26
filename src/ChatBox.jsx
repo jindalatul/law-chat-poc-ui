@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { API_URL } from "./config"; // 👈 import config
+import { API_URL } from "./config"; //import api endpoint, from config.js
 
 export default function ChatBox({ layoutKey }) {
   const [message, setMessage] = useState("");
