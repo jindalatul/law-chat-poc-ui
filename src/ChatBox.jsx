@@ -122,7 +122,6 @@ function formatReply(data)
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    console.log("California breach of contract");
     const text = message.trim();
     if (!text && files.length === 0) return;
 
