@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { API_URL } from "./config"; //import api endpoint, from config.js
+import { API_URL } from "./config"; // 👈 import config
 
 export default function ChatBox({ layoutKey }) {
   const [message, setMessage] = useState("");
@@ -122,7 +122,7 @@ function formatReply(data)
 
   const onSubmit = async (e) => {
     e.preventDefault();
-     
+    console.log("California breach of contract");
     const text = message.trim();
     if (!text && files.length === 0) return;
 
@@ -134,15 +134,27 @@ function formatReply(data)
     
     setThread((t) => [...t, { role: "user", text }]);
     setLoading(true);
-      try {
-         const res = await fetch(API_URL); // change this path to your API
-       
-         const json = await res.json();
-         console.log(json);
-         
-        // 3) push assistant message
-        setThread((t) => [...t, { role: "assistant", text: formatReply(json) }]);
-      } catch (err) {
+    try 
+     {
+      //let query ="California breach of contract";
+      console.log(API_URL);
+      console.log(message);
+
+      const res = await fetch(API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message }), 
+      });
+
+      const data = await res.json();
+      console.log(data);
+
+      // 3) push assistant message
+      setThread((t) => [...t, { role: "assistant", text: formatReply(data) }]);
+    }
+      catch (err) {
         setThread((t) => [...t, { role: "assistant", text: "Sorry—couldn’t reach the API." }]);
         console.error(err);
       } finally {
@@ -152,41 +164,9 @@ function formatReply(data)
     setMessage("");
     setFiles([]);
     if (fileInputRef.current) fileInputRef.current.value = "";
-    
     autoSize();
   };
-/*
-  const onSubmit = async (e) => {
-  e.preventDefault();
-  const text = message.trim();
-  if (!text && files.length === 0) return;
 
-  const formData = new FormData();
-  formData.append("message", text);
-  files.forEach((file, i) => {
-    formData.append("files", file); // "files" matches backend field name
-  });
-
-  try {
-    const res = await fetch("http://localhost:3000/api/research", {
-      method: "POST",
-      body: formData, // no headers — browser sets multipart boundary
-    });
-
-    const json = await res.json();
-    console.log("API response:", json);
-
-    setThread((t) => [...t, { role: "assistant", node: formatReply(json) }]);
-  } catch (err) {
-    console.error("Upload error:", err);
-  }
-
-  setMessage("");
-  setFiles([]);
-  if (fileInputRef.current) fileInputRef.current.value = "";
-  autoSize();
-};
-*/
   // Resize on mount / window resize / layout change
   useEffect(() => {
     autoSize();
@@ -211,8 +191,6 @@ function formatReply(data)
     setMessage(text);
     // autosize runs via the message effect
   };
-
-// ...imports and component setup omitted for brevity
 
 return (
   <div ref={containerRef} className="chat-center">
