@@ -136,7 +136,7 @@ function formatReply(data)
     setLoading(true);
     try 
      {
-      //let query ="California breach of contract";
+      let query = message;
       console.log(API_URL);
       console.log(message);
 
@@ -145,7 +145,7 @@ function formatReply(data)
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ message }), 
+        body: JSON.stringify({ query }), 
       });
 
       const data = await res.json();
